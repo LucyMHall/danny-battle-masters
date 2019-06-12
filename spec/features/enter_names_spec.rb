@@ -1,9 +1,9 @@
 require "capybara/rspec"
-require_relative '../../app'
+require_relative '../../lib/app'
 
 Capybara.app = Battle
 
-feature "enter players" do  
+feature "Enter players" do  
 
   scenario "Players can fill in their names" do
     visit("/")
