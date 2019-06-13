@@ -1,8 +1,3 @@
-require "capybara/rspec"
-require_relative '../../lib/app'
-
-Capybara.app = Battle
-
 feature "view hit points" do
   scenario "see player 2 hit points" do    
     visit("/")
